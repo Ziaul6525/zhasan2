@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+li{
+    text-decoration: none !important;
+}
+
+
+.hero-imge img, .about img{
+    width: 100%;
+}
+
+.hero-imge, .outer-image{
+    min-width: 400px;
+}
+
+.hero{
+    background-color: rgba(255, 166, 0, 0.062);
+}
+
+.ornage_underline{
+    width: 150px;
+    height: 2px;
+    background-color: orange;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/* service section */
+.underline{
+    width: 150px;
+    height: 3px;
+    background-color:orangered;
+    margin: 0 auto;
+
+}
+
+.section-header h3{
+    color: gray;
+}
+
+.inner-service{
+   box-shadow: 10px 10px 5px gray ;
+   border: 1px solid gray;
+   border-radius: 10px;
+}
+
+.inner-service i{
+    font-size: 30px;
+    color: orangered;
+}
+
+/* portfolio section */
+.portfolio-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location, .email, .call{
+    position: relative;
+}
+
+.location i, .email i, .call i{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background-color: rgba(255, 68, 0, 0.513);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contant-left, .contact-right{
+    min-height: 600px;
+}
+
+.map{
+    overflow: hidden;
+}
+
+.footer-top ul li{
+    list-style-type: none;
+}
+.footer-top ul{
+    padding: 0;
+}
+
+.footer-top ul li i{
+    color: orangered;
+}
+
+.social ul li{
+    display: inline-block ;
+    
+}
+
+.social ul li i{
+    display: inline-block ;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+}
+
+
